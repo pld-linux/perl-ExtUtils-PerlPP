@@ -5,11 +5,11 @@ Summary:	ExtUtils::PerlPP perl module
 Summary(pl):	Modu³ perla ExtUtils::PerlPP
 Name:		perl-ExtUtils-PerlPP
 Version:	0.03
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -24,7 +24,8 @@ ExtUtils::PerlPP - Preprocesor Perla.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -38,5 +39,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_sitelib}/ExtUtils/PerlPP.pm
+%{perl_vendorlib}/ExtUtils/PerlPP.pm
 %{_mandir}/man3/*
