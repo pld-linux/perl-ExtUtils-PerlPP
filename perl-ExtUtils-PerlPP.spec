@@ -1,4 +1,4 @@
-%define		perl_sitelib	%(eval "`perl -V:installsitelib`"; echo $installsitelib)
+%include	/usr/lib/rpm/macros.perl
 Summary:	ExtUtils-PerlPP perl module
 Summary(pl):	Modu³ perla ExtUtils-PerlPP
 Name:		perl-ExtUtils-PerlPP
@@ -8,16 +8,17 @@ Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/ExtUtils/ExtUtils-PerlPP-%{version}.tar.gz
-BuildRequires:	perl >= 5.005_03-10
+BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 BuildRoot:	/tmp/%{name}-%{version}-root
 
 %description
-ExtUtils-PerlPP - A Perl Preprocessor
+ExtUtils-PerlPP - A Perl Preprocessor.
 
 %description -l pl
-ExtUtils-PerlPP - Preprocesor Perla
+ExtUtils-PerlPP - Preprocesor Perla.
 
 %prep
 %setup -q -n ExtUtils-PerlPP-%{version}
