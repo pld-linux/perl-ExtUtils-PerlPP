@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	ExtUtils
-%define	pnam	PerlPP
+%define		pdir	ExtUtils
+%define		pnam	PerlPP
 Summary:	ExtUtils::PerlPP - a Perl preprocessor
 Summary(pl):	ExtUtils::PerlPP - preprocesor Perla
 Name:		perl-ExtUtils-PerlPP
