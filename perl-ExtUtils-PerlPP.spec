@@ -5,7 +5,7 @@ Summary:	ExtUtils::PerlPP perl module
 Summary(pl):	Modu³ perla ExtUtils::PerlPP
 Name:		perl-ExtUtils-PerlPP
 Version:	0.03
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
