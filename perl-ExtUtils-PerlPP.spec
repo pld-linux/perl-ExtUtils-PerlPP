@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	ExtUtils
 %define	pnam	PerlPP
-Summary:	ExtUtils-PerlPP perl module
-Summary(pl):	Modu³ perla ExtUtils-PerlPP
+Summary:	ExtUtils::PerlPP perl module
+Summary(pl):	Modu³ perla ExtUtils::PerlPP
 Name:		perl-ExtUtils-PerlPP
 Version:	0.03
 Release:	6
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-ExtUtils-PerlPP - A Perl Preprocessor.
+ExtUtils::PerlPP - A Perl Preprocessor.
 
 %description -l pl
-ExtUtils-PerlPP - Preprocesor Perla.
+ExtUtils::PerlPP - Preprocesor Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
