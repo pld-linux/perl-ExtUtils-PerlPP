@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	ExtUtils
 %define	pnam	PerlPP
-%include	/usr/lib/rpm/macros.perl
 Summary:	ExtUtils-PerlPP perl module
 Summary(pl):	Modu³ perla ExtUtils-PerlPP
 Name:		perl-ExtUtils-PerlPP
 Version:	0.03
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ ExtUtils-PerlPP - A Perl Preprocessor.
 ExtUtils-PerlPP - Preprocesor Perla.
 
 %prep
-%setup -q -n ExtUtils-PerlPP-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
