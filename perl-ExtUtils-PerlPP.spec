@@ -26,7 +26,7 @@ ExtUtils::PerlPP - Preprocesor Perla.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
