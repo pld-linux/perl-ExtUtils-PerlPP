@@ -2,9 +2,9 @@
 Summary:	ExtUtils-PerlPP perl module
 Summary(pl):	Modu³ perla ExtUtils-PerlPP
 Name:		perl-ExtUtils-PerlPP
-Version:	0.02
-Release:	3
-Copyright:	GPL
+Version:	0.03
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/ExtUtils/ExtUtils-PerlPP-%{version}.tar.gz
