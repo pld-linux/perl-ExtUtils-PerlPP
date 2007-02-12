@@ -6,7 +6,7 @@
 %define		pdir	ExtUtils
 %define		pnam	PerlPP
 Summary:	ExtUtils::PerlPP - a Perl preprocessor
-Summary(pl):	ExtUtils::PerlPP - preprocesor Perla
+Summary(pl.UTF-8):   ExtUtils::PerlPP - preprocesor Perla
 Name:		perl-ExtUtils-PerlPP
 Version:	0.03
 Release:	8
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 ExtUtils::PerlPP module contains a Perl preprocessor.
 
-%description -l pl
-Modu≥ ExtUtils::PerlPP zawiera preprocesor Perla.
+%description -l pl.UTF-8
+Modu≈Ç ExtUtils::PerlPP zawiera preprocesor Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
