@@ -6,7 +6,7 @@
 %define		pdir	ExtUtils
 %define		pnam	PerlPP
 Summary:	ExtUtils::PerlPP - a Perl preprocessor
-Summary(pl.UTF-8):   ExtUtils::PerlPP - preprocesor Perla
+Summary(pl.UTF-8):	ExtUtils::PerlPP - preprocesor Perla
 Name:		perl-ExtUtils-PerlPP
 Version:	0.03
 Release:	8
