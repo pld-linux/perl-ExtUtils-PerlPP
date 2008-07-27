@@ -9,7 +9,7 @@ Summary:	ExtUtils::PerlPP - a Perl preprocessor
 Summary(pl.UTF-8):	ExtUtils::PerlPP - preprocesor Perla
 Name:		perl-ExtUtils-PerlPP
 Version:	0.03
-Release:	8
+Release:	9
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
