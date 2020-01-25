@@ -4,7 +4,6 @@
 
 %define		pdir	ExtUtils
 %define		pnam	PerlPP
-%include	/usr/lib/rpm/macros.perl
 Summary:	ExtUtils::PerlPP - a Perl preprocessor
 Summary(pl.UTF-8):	ExtUtils::PerlPP - preprocesor Perla
 Name:		perl-ExtUtils-PerlPP
